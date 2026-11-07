@@ -1,0 +1,4 @@
+# Pre-compile all app code at install time (the target TV is a slow 32-bit device;
+# interpreted/JIT code on first use causes visible jank). Libraries ship their own profiles.
+HSPLcom/seenama/tv/**->**(**)**
+Lcom/seenama/tv/**;
